@@ -1,0 +1,52 @@
+header{
+  background: #fff;
+  padding: 50px 0;
+  .flex-container{
+    justify-content: space-between;
+    .logo{
+      position: relative;
+      span{
+        color: #0070FE;
+        font-size: 14px;
+        font-weight: lighter;
+        position: absolute;
+        top: -18px;
+        right: -27px;
+      }
+    }
+    .navbar{
+          nav{
+            margin-left: 81px;
+            ul{
+                li{
+                    display: inline-block;
+                    a{
+                        display: flex;
+                        font-size: 24px;
+                        font-weight: lighter;
+                        margin-top: -7px;
+                        margin-right: 103px;
+                        &:hover{
+                          color: #0070FE;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .lang{
+      a{
+        font-size: 24px;
+        font-weight: lighter;
+        color: #000;
+        margin-left: 22px;
+      }
+      .active{
+        color: #0070FE;
+      }
+    }
+    .mobile-nav{
+      display: none;
+    }
+  }
+}

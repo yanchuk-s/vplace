@@ -1,0 +1,181 @@
+@media (min-width: 1200px){
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 140px;
+  }
+}
+
+@media (max-width: 1800px){
+  .home .home-img img {
+    width: 122%;
+    margin-top: 0;
+    margin-left: -120px; 
+  }
+
+  .home .home-bg {
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+  }
+
+  .home .home-arrow-down {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 1400px){
+  header{
+    padding: 25px 0;
+    background: #fff;
+  }
+
+  .home .home-bg {
+    height: 83%;
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+  }
+
+  .home .home-text {
+    padding-top: 163px;
+  }
+
+  .home .home-img img {
+    width: 122%;
+    margin-top: 0;
+    margin-left: -100px; 
+  }
+
+  header{
+    .flex-container{
+      .navbar{
+        nav{
+          ul{
+            li{
+              a{
+                font-size: 18px;
+              }
+            }
+          }
+        } 
+      }
+      .lang{
+        a{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .home{
+    .home-text{
+      h2{
+        font-size: 20px;
+      }
+      h1{
+        font-size: 36px;
+      }
+      a{
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1200px){
+  header{
+    padding: 25px 0;
+    background: #fff;
+  }
+  .home .home-text {
+    padding-top: 125px;
+  }
+
+  .home .home-bg {
+    height: 83%;
+    width: 100%;
+    position: absolute;
+    bottom: -80px;
+  }
+
+  .home .home-img img {
+    width: 122%;
+    margin-top: 0;
+    margin-left: -30px;
+  }
+}
+
+
+@media (max-width: 991px){
+  header{
+    .flex-container{
+      .navbar{
+        display: none;
+      }
+      .lang{
+        display: none;
+      }
+      .mobile-nav{
+        display: block;
+      }
+    }
+  }
+
+  .home{
+    .home-text{
+      order: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0;
+    }
+    .home-img{
+      order: 0;
+    }
+  }
+
+  .home .home-bg {
+    height: 63%;
+    bottom: 239px;
+  }
+
+  .home .home-arrow-down{
+    display: none;
+  }
+  .home .home-img img{
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px){
+  .home .home-bg {
+    height: 44%;
+    bottom: 350px;
+  }
+}
+
+@media (max-width: 560px){
+  .home .home-bg {
+    height: 41%;
+    bottom: 310px;
+  }
+
+  .home .home-text h1{
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 375px){
+  .home .home-bg {
+    height: 41%;
+    bottom: 264px;
+  }
+}

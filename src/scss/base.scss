@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+button,
+button:hover,
+button:active,
+button:focus,
+input,
+input:focus{
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,button,p,div,span,h1,h2,h3,h4,h5{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dflex{
+    display: flex;
+}
+
+.acenter{
+    align-items: center;
+}
